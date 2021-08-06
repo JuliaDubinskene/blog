@@ -1,0 +1,73 @@
+.articleWrapper {
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+  width: 940px;
+  height: 140px;
+  border-radius: 5px;
+  padding: 15px;
+  justify-content: space-between;
+  box-shadow: 1px 0px 25px -6px rgba(0, 0, 0, 0.16);
+}
+.singleArticleWrapper {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.articleInfo {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  justify-content: space-between;
+}
+.articleTitle {
+   color: #1890FF;
+  font-size: 20px;
+}
+.articleDesc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.articleBody {
+  min-height: 60vh;
+}
+.userInfo {
+  display: flex;
+  flex-basis: 30%;
+  justify-content: flex-end;
+}
+.nameAndDate {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.userName {
+  font-size: 18px;
+}
+.articleDate {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.articleText {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.titleInfo {
+  display: flex;
+  align-items: baseline;
+}
+.articleLikes {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.likeOutLined {
+  font-size: 18px;
+}
+.likeField {
+  color: #1890FF;
+}
+.likeCount {
+  margin-left: 10px;
+}

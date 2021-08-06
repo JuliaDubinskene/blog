@@ -1,0 +1,88 @@
+.singleArticleWrapper {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 1px 0px 25px 2px rgba(0, 0, 0, 0.16);
+}
+.loader {
+    align-self: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.articleDesc{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.articleInfo{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+.articleTitle{
+    color: #1890FF;
+    font-size: 20px;
+}
+.articleText{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.userInfo{
+    display: flex;
+    flex-basis: 30%;
+    justify-content: flex-end;
+}
+.nameAndDate{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.userName{
+    font-size: 18px;
+}
+.articleDate{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.articleBody{
+    min-height: 60vh;
+    word-break: normal;
+}
+.userActions {
+    margin-top: 15px;
+}
+.buttonEdit{
+    width: 70px;
+    height: 30px;
+    margin-right: 15px;
+    background-color: white;
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+    outline: none;
+    color: #52C41A;
+    cursor: pointer;
+}
+.buttonDelete {
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #F5222D;
+    border-radius: 5px;
+    outline: none;
+    color: #F5222D;
+    cursor: pointer;
+}
+.articleLikes {
+    margin-left: 14px;
+}
+.headerArticle{
+    display: flex;
+    align-items: baseline;
+    font-size: 18px;
+}
+.likeCount {
+    margin-left: 5px;
+}
